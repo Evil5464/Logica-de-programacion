@@ -3,14 +3,14 @@
 //Usaremos un objeto como mapa 
 
 let frase = 'Esta es una palabra dentro de una frase, PALABRA!!!';
-let palabra = 'frase';
+let palabra = 'palabra';
 
 
 let result = coincidencias(frase, palabra);
 
 function coincidencias(frase, busqueda){
     //Limpiamos la frase
-    let frase_limpia = frase.toLowerCase().replace(/[!¡?¿,.+*-]+/g, '');
+    let frase_limpia = frase.toLowerCase().replace(/[!¡?¿,.+*-]/g, '');
     let mapa = {};
 
     //Dividimos en un arreglo
