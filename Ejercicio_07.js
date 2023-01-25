@@ -13,4 +13,4 @@ function impares(a, b){
     return (cont);
 }
 
-console.log(impares(7,11));
+console.log(impares(1,100));
