@@ -1,4 +1,4 @@
-/* Dado un array de números enteros y un número, detectar si esa lista de números es una permutación del 1 al número dado
+/* Dado un array de números enteros y un número, detectar si esa lista de números es la permutación del 1 al número dado
 
 permutación de [1,2,3,4,5] , 5 : true
 permutación de [1,2,4,5] , 5 : false
