@@ -1,4 +1,4 @@
-//Dados dos número encontrar cuantos número impares hay entre ellos
+//Dados dos números encontrar cuantos números impares hay entre ellos
 
 function impares(a, b){
     let cont=0;
